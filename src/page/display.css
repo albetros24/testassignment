@@ -1,0 +1,26 @@
+.display{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    width:70%;
+    background-color: aliceblue;
+    margin-top:20px;
+}
+ 
+.display .left{
+   
+    width:20%;
+    height: 100%;
+    background: #fff;
+    border-left: black solid 1px;
+    margin:0;
+}
+.display.right{
+   
+    width:80%;
+    height: 100%;
+    background: #fff;
+
+    margin:0;
+}
